@@ -11,7 +11,7 @@ Recommender systems (RecSys) are becoming more prevalent these days with the exp
 * Recommendation of items on any e-commerce website (Apparel, food, etc)
 * Healthcare recommendation of doctors etc!
 
-Recommendations can broadly classified as the following 
+RecSys can broadly classified as the following 
 * Non personalized recommendations:  This is just a blanket recommendation mechanism, for example, what users in a certain zip code have watched or liked any movies or songs
 * Content based recommendations: This is personalized recommendation for a user, based on the past interactions of similar type of items, for example, if user likes/prefers a crime genre.
 * Collaborative filtering: This personalized recommendations is derived based on similarities with other users/items interactions. For example, if a user who like crime & action genres, is likely to prefer sci-fi. 
