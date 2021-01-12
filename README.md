@@ -20,21 +20,21 @@ Recommendations can broadly classified as the following
 This project utilizes various Data & Machine learning services by AWS to craft an end-to-end machine learning lifecycle project. The following shows the architecture.
 ![image](capstone.png)
 This project is ogranized into 6 modules,
-- [Data Ingestion & Transformation](/DataIngestion/DataIngestion.md)
+- [Data Ingestion & Transformation](/DataIngestion/DataIngestion.md) Data ingestion includes acquiring the dataset from movielens.org and ingesting into S3.
    * Services used
       - Kinesis Firehose, EC2, Firehose Agent, S3
-- [Data Preparation](/DataPreparation/DataPreparation.md) For this phase of the project, going to leverage AWS Lakeformation as a centralized datalake, as LakeFormation provides user and data governance. 
+- [Data Preparation](/DataPreparation/DataPreparation.md) Data Preparation covers, building a centralized data catalog, and performing data transformation jobs to convert the datatypes and store it back in S3.  
     * Services used
       - LakeFormation, AWS GLUE, Amazon Athena
-- [Data Visualization](/DataVisualization/DataVisualization.md) For this phase of the project, going to leverage AWS Athena, and AWS Quicksight for ad-hoc data analytics and visualization.
+- [Data Visualization](/DataVisualization/DataVisualization.md)  Data Visualization covers creating ad-hoc queries in Amazon Athena, and performing data visualization charts in quicksight. 
     * Services used
       - Amazon Athena, Quicksight
-- [Training Models](/TrainingModels/) This folder consists of jupyter notebooks for the trained models
-      * Training Model - Factorization Machines with Regressor
-      * Training Model - kNN with Regressor
-- [Evaluate ML Models](/Evaluation/) This folder consists of jupyter notebooks to evaluate hyperparameter tuning jobs
+- [Training Models](/TrainingModels/) This folder consists of jupyter notebooks for the trained models.
+     * Training Model - Factorization Machines with Regressor
+     * Training Model - kNN with Regressor
+- [Evaluate ML Models](/Evaluation/) This folder consists of jupyter notebooks to evaluate hyperparameter tuning jobs.
      * Evaluate Hyperparameter tuning job - Factorization with Regressor
      * Evaluate Hyperparameter tuning job - kNN with Regressor
-- [Machine Learning Implementation](/MLops/) This folder consists of jupyter notebooks to deploy a new endpoint with 2 production variants with distributed weights to perform A/B testing
+- [Machine Learning Implementation](/MLops/) This folder consists of jupyter notebooks to deploy a new endpoint with 2 production variants with distributed weights to perform A/B testing.
      *  MLOps - AB- Testing for FM-Regressor
      *  MLOps - AB - Testing for k-NN
