@@ -26,6 +26,6 @@ This project is ogranized into 6 modules, following AWS ML best practice methodo
    Grouplens dataset is downloaded onto EC2 server, and kinesis agent installed on EC2 will ingest the various csv files to AWS S3 through AWS kinesis firehose.
 - [Data Preparation](/DataPreparation/DataPreparation.md) For this phase of the project, going to leverage AWS Lakeformation as a centralized datalake, as LakeFormation provides user and data governance. 
 - [Data Visualization](/DataVisualization/DataVisualization.md) For this phase of the project, going to leverage AWS Athena, and AWS Quicksight for ad-hoc data analytics and visualization.
-- [Training Models](/TrainingModels/TrainingModel.md) For this phase of the project, going to leverage, AWS built-in Factorization Machines algorighthm.
-- [Evaluate ML Models](/Evaluation/EvaluateMLModel.md)
-- [Machine Learning Implementation](/MLops/MachineLearningOperations.md)
+- [Training Models](/TrainingModels/) For this phase of the project, going to leverage, AWS built-in Factorization Machines algorighthm.
+- [Evaluate ML Models](/Evaluation/)
+- [Machine Learning Implementation](/MLops/)
