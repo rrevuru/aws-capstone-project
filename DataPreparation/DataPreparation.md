@@ -17,4 +17,5 @@ datasource0 = glueContext.create_dynamic_frame.from_catalog(database = "movies",
 ````
 applymapping1 = ApplyMapping.apply(frame = datasource0, mappings = [("userid", "long", "userid", "long"), ("movieid", "long", "movieid", "long"), ("rating", "float", "rating", "float"), ("timestamp", "timestamp", "timestamp", "timestamp")], transformation_ctx = "applymapping1")
 ````
-
+### Athena Queries
+![image](athena.jpg)
