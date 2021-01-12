@@ -20,12 +20,18 @@ Recommendations can broadly classified as the following
 This project utilizes various Data & Machine learning services by AWS to craft an end-to-end machine learning lifecycle project. The following shows the architecture.
 ![image](capstone.png)
 This project is ogranized into 6 modules,
-- [Data Ingestion & Transformation](/DataIngestion/DataIngestion.md)  For this phase of the project, we are going to use AWS EC2, AWS Kinesis Firehose & AWS S3 services.
+- [Data Ingestion & Transformation](/DataIngestion/DataIngestion.md)
+   * Services used
+      - Kinesis Firehose, EC2, Firehose Agent, S3
 - [Data Preparation](/DataPreparation/DataPreparation.md) For this phase of the project, going to leverage AWS Lakeformation as a centralized datalake, as LakeFormation provides user and data governance. 
+    * Services used
+      - LakeFormation, AWS GLUE, Amazon Athena
 - [Data Visualization](/DataVisualization/DataVisualization.md) For this phase of the project, going to leverage AWS Athena, and AWS Quicksight for ad-hoc data analytics and visualization.
+    * Services used
+      - Amazon Athena, Quicksight
 - [Training Models](/TrainingModels/) This folder consists of jupyter notebooks for the trained models
-      1.Training Model - Factorization Machines with Regressor
-      2.Training Model - kNN with Regressor
+      1. Training Model - Factorization Machines with Regressor
+      2. Training Model - kNN with Regressor
 - [Evaluate ML Models](/Evaluation/) This folder consists of jupyter notebooks to evaluate hyperparameter tuning jobs
      1. Evaluate Hyperparameter tuning job - Factorization with Regressor
      2. Evaluate Hyperparameter tuning job - kNN with Regressor
