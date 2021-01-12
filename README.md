@@ -30,11 +30,11 @@ This project is ogranized into 6 modules,
     * Services used
       - Amazon Athena, Quicksight
 - [Training Models](/TrainingModels/) This folder consists of jupyter notebooks for the trained models
-      1. Training Model - Factorization Machines with Regressor
-      2. Training Model - kNN with Regressor
+      * Training Model - Factorization Machines with Regressor
+      * Training Model - kNN with Regressor
 - [Evaluate ML Models](/Evaluation/) This folder consists of jupyter notebooks to evaluate hyperparameter tuning jobs
-     1. Evaluate Hyperparameter tuning job - Factorization with Regressor
-     2. Evaluate Hyperparameter tuning job - kNN with Regressor
+     * Evaluate Hyperparameter tuning job - Factorization with Regressor
+     * Evaluate Hyperparameter tuning job - kNN with Regressor
 - [Machine Learning Implementation](/MLops/) This folder consists of jupyter notebooks to deploy a new endpoint with 2 production variants with distributed weights to perform A/B testing
-     1.  MLOps - AB- Testing for FM-Regressor
-     2.  MLOps - AB - Testing for k-NN
+     *  MLOps - AB- Testing for FM-Regressor
+     *  MLOps - AB - Testing for k-NN
