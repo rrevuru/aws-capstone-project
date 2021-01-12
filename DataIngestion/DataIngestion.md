@@ -5,10 +5,10 @@ The dataset is split amongst the following 4 csv files
  * links.csv, 
 *  movies.csv, 
 *  ratings.csv 
-*  tags.csv`
+*  tags.csv
 
 ## Data Ingestion Phase 
-Have downloaded the dataset onto a EC2 server 
+I have downloaded the dataset onto a EC2 server 
 ### Kinesis Agent
 Installed a kineses agent, and configured the agent to load files from the source. Since this is not a streaming application, we had to use the "START_OF_THE_FILE" to read the whole file
 ![image](kinesisagent.png)
@@ -20,6 +20,6 @@ Configured four firehose streams, corresponding to each files within the directo
 
 
 #### Destination
-We had to create 4 S3 buckets inorder to transport the files from the source location to the destination S3 bucket
+I  had to create 4 S3 buckets inorder to transport the files from the source location to the destination S3 bucket
 
 ![image](S3buckets.png)
