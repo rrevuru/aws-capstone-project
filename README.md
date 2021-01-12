@@ -24,11 +24,11 @@ This project is ogranized into 6 modules,
 - [Data Preparation](/DataPreparation/DataPreparation.md) For this phase of the project, going to leverage AWS Lakeformation as a centralized datalake, as LakeFormation provides user and data governance. 
 - [Data Visualization](/DataVisualization/DataVisualization.md) For this phase of the project, going to leverage AWS Athena, and AWS Quicksight for ad-hoc data analytics and visualization.
 - [Training Models](/TrainingModels/) This folder consists of jupyter notebooks for the trained models
-* Training Model - Factorization Machines with Regressor
-* Training Model - kNN with Regressor
+      1.Training Model - Factorization Machines with Regressor
+      2.Training Model - kNN with Regressor
 - [Evaluate ML Models](/Evaluation/) This folder consists of jupyter notebooks to evaluate hyperparameter tuning jobs
-* Evaluate Hyperparameter tuning job - Factorization with Regressor
-* Evaluate Hyperparameter tuning job - kNN with Regressor
+     1. Evaluate Hyperparameter tuning job - Factorization with Regressor
+     2. Evaluate Hyperparameter tuning job - kNN with Regressor
 - [Machine Learning Implementation](/MLops/) This folder consists of jupyter notebooks to deploy a new endpoint with 2 production variants with distributed weights to perform A/B testing
-* MLOps - AB- Testing for FM-Regressor
-* MLOps - AB - Testing for k-NN
+     1.  MLOps - AB- Testing for FM-Regressor
+     2.  MLOps - AB - Testing for k-NN
